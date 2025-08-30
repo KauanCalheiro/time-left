@@ -1,0 +1,12 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Olá, eu sou Kauan",
+    "subtitle": "Bem-vindo ao meu cantinho da internet!"
+  }
+}

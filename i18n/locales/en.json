@@ -1,0 +1,12 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hello, I'm Kauan",
+    "subtitle": "Welcome to my corner of the internet!"
+  }
+}
