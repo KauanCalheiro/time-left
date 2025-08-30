@@ -6,6 +6,8 @@ interface HeaderItemsDesktopProps {
 }
 
 const { items } = defineProps<HeaderItemsDesktopProps>()
+
+const route = useRoute()
 </script>
 
 <template>
@@ -19,6 +21,9 @@ const { items } = defineProps<HeaderItemsDesktopProps>()
                 variant="link"
                 :to="item.to"
                 :label="item.label"
+                :class="{
+                    'text-default bg-elevated': route.path === item.to,
+                }"
             />
         </div>
     </div>
