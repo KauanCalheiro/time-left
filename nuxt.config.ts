@@ -8,13 +8,6 @@ export default defineNuxtConfig({
     preset: 'github-pages'
   },
 
-  // router: {
-  //   options: {
-  //     hashMode: true,
-  //     scrollBehaviorType: 'smooth'
-  //   }
-  // },
-
   app: {
     baseURL: '/portfolio/',
   },
