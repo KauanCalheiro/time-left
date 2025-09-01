@@ -6,7 +6,8 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Olá, sou o Kauan",
-    "subtitle": "Bem-vindo ao meu cantinho da internet!"
+    "title": "Olá, sou o Kauan.",
+    "subtitle": "Bem-vindo ao meu cantinho da internet!",
+    "description": "Sou programador fullstack e aspirante a engenheiro de software, apaixonado por backend. Este site é onde me apresento, partilho os meus projetos e conecto-me com outras pessoas."
   }
 }
