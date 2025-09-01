@@ -14,7 +14,7 @@
             <div>
                 <slot name="right">
                     <div class="flex gap-2">
-                        <LocaleSelector />
+                        <SelectorLocale />
                         <UColorModeButton variant="soft" />
                         <UButton
                             icon="i-simple-icons:github"
