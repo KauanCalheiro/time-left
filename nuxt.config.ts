@@ -10,6 +10,19 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: '/portfolio/',
+    head: {
+      title: 'Kauan Calheiro 🖖🏼',
+      meta: [
+        { name: 'description', content: 'Welcome to my portfolio website' },
+        { name: 'author', content: 'Kauan Morinel Calheiro' },
+        { name: 'keywords', content: 'Kauan Morinel Calheiro' },
+        { name: 'keywords', content: 'Kauan Calheiro' },
+        { name: 'keywords', content: 'Kauan Morinel' },
+        { name: 'keywords', content: 'Kauan M C' },
+        { name: 'keywords', content: 'Kauan M Calheiro' },
+        { name: 'keywords', content: 'Kauan Morinel C' },
+      ]
+    }
   },
 
   modules: [
