@@ -1,9 +1,9 @@
 <script setup lang="ts">
-interface ImgUserProps {
+interface UserImageProps {
     size?: number;
 }
 
-const { size = 10 } = defineProps<ImgUserProps>()
+const { size = 10 } = defineProps<UserImageProps>()
 </script>
 
 <template>

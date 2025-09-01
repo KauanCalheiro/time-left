@@ -3,7 +3,7 @@
 
     <div class="w-full flex justify-center items-center py-2">
       <div class="p-2 border-2 rounded-full border-muted">
-        <ImgUser :size="30" class=" border-6 border-accented h-30 w-30"/>
+        <UserImage :size="30" class=" border-6 border-accented h-30 w-30"/>
       </div>
     </div>
 
