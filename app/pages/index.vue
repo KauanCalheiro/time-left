@@ -1,7 +1,7 @@
 <template>
-  <div class="py-4 flex flex-col gap-4 md:gap-8">
+  <div class="py-4 flex flex-col gap-6 md:gap-12">
 
-    <div class="w-full flex justify-center items-center py-2">
+    <div class="w-full flex justify-center items-center md:pt-2">
       <div class="p-2 border-2 rounded-full border-muted">
         <UserImage :size="30" class=" border-6 border-accented h-30 w-30"/>
       </div>
@@ -16,6 +16,10 @@
     <p class="mx-auto max-w-4xl text-center text-base md:text-lg">
       {{ $t('hero.description') }}
     </p>
+
+    <div>
+      <ImageGallery />
+    </div>
 
   </div>
 </template>
