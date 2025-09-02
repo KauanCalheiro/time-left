@@ -8,11 +8,11 @@ interface UserPhotos {
 const imageCardSize = ref(50)
 
 const userPhotos = ref<UserPhotos[]>([
-    { src: '/photos/3.jpeg', tilt: 'left' },
-    { src: '/photos/4.jpeg', tilt: 'right' },
-    { src: '/photos/5.jpeg', tilt: 'left' },
-    { src: '/photos/1.jpeg', tilt: 'left' },
-    { src: '/photos/2.jpeg', tilt: 'right' },
+    { src: '/portfolio/photos/3.jpeg', tilt: 'left' },
+    { src: '/portfolio/photos/4.jpeg', tilt: 'right' },
+    { src: '/portfolio/photos/5.jpeg', tilt: 'left' },
+    { src: '/portfolio/photos/1.jpeg', tilt: 'left' },
+    { src: '/portfolio/photos/2.jpeg', tilt: 'right' },
 ])
 </script>
 
