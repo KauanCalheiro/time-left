@@ -35,7 +35,6 @@ const rotation = computed(() => {
 })
 
 const scale = computed(() => isHovered.value ? (isMobile.value ? 1.4 : 1.2) : 1)
-const zIndex = computed(() => isHovered.value ? 10 : 0)
 
 const handleMouseOver = () => {
     isHovered.value = true
@@ -50,9 +49,6 @@ const handleMouseLeave = () => {
     <div
         class="relative"
         :class="`h-${size} w-${size}`"
-        :style="{
-            'z-index': zIndex
-        }"
     >
         <img
             :src="src"
