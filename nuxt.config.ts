@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     head: {
       title: 'Kauan Calheiro 🖖🏼',
       meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Welcome to my portfolio website' },
         { name: 'author', content: 'Kauan Morinel Calheiro' },
         { name: 'keywords', content: 'Kauan Morinel Calheiro' },
@@ -21,6 +22,9 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'Kauan M C' },
         { name: 'keywords', content: 'Kauan M Calheiro' },
         { name: 'keywords', content: 'Kauan Morinel C' },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/portfolio/favicon.ico' }
       ]
     }
   },
