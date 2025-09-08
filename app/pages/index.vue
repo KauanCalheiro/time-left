@@ -7,15 +7,15 @@
       </div>
     </div>
 
-    <h1 class="mx-auto max-w-2xl text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]">
+    <AppTitle class="mx-auto max-w-2xl text-center">
       {{ $t('hero.title') }}
       <br>
       {{ $t('hero.subtitle') }}
-    </h1>
+    </AppTitle>
 
-    <p class="mx-auto max-w-4xl text-center text-base md:text-lg">
+    <AppDescription class="mx-auto max-w-4xl text-center">
       {{ $t('hero.description') }}
-    </p>
+    </AppDescription>
 
     <div>
       <ImageGallery />
