@@ -9,5 +9,9 @@
     "title": "Hello, I'm Kauan.",
     "subtitle": "Welcome to my corner of the internet!",
     "description": "I'm a fullstack developer and aspiring software engineer, passionate about backend. This site is where I introduce myself, share my projects, and connect with others."
+  },
+  "workInProgress": {
+    "title": "Work In Progress",
+    "description": "This page is currently under development. Please check back later for updates!"
   }
 }

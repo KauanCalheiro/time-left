@@ -1,5 +1,3 @@
 <template>
-   <h1>
-      projects
-   </h1>
+   <WorkInProgress title="Projects" />
 </template>

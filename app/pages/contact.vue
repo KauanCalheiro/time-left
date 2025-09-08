@@ -1,5 +1,3 @@
 <template>
-   <h1>
-      contact
-   </h1>
+    <WorkInProgress title="Contact" />
 </template>

@@ -1,5 +1,3 @@
 <template>
-    <h1>
-        about
-    </h1>
+    <WorkInProgress title="About Me" />
 </template>
