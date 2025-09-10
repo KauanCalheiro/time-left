@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap");
 
 .font-geist {
   font-family: "Geist", system-ui;
   font-style: normal;
 }
 
-.font-oooh-baby {
-  font-family: "Oooh Baby", cursive;
+.font-poppins {
+  font-family: "Poppins", system-ui;
   font-style: normal;
 }
