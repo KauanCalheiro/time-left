@@ -5,6 +5,16 @@ interface Unit {
 }
 
 const units: Record<string, Unit> = {
+    month: {
+        singular: 'mês',
+        plural: 'meses',
+        abbreviation: 'm'
+    },
+    week: {
+        singular: 'semana',
+        plural: 'semanas',
+        abbreviation: 'sem'
+    },
     day: {
         singular: 'dia',
         plural: 'dias',
